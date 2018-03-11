@@ -1,10 +1,36 @@
 body{
-    background-color: green;
+        background-image:url(../images/pixel_weave.png);
+        font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron{
+   background-color:  #337bfb;
+   color: white;
 }
 
 .mainArea{
-    background-color: red;
-    height: 350px;
+    background-color: #337bfb;
+    height: 375px;
     padding-top: 20px;
+    color: white;
 }
 
+.answer{
+    text-align: left;
+    line-height: 45px;
+    background-color: lightgray;
+    color: black;
+    padding-left: 25px;
+}
+
+.answer:hover{
+    background-color: gray;
+}
+
+.btn{
+    background-color: #00b14d;
+}
+
+.btn:hover{
+    background-color: #00642c;
+}

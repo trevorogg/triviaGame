@@ -47,7 +47,7 @@ $(document).ready(function () {
 
     // Function that generates the question and answers pulling from arrays using numQuestion
     function generateHTML() {
-        HTML = "<p class='timer-p'><span class='timer'>30</span></p><p>" + questions[numQuestion] + "</p><p class='first-answer answer'>A. " + answers[numQuestion][0] + "</p><p class='answer'>B. " + answers[numQuestion][1] + "</p><p class='answer'>C. " + answers[numQuestion][2] + "</p><p class='answer'>D. " + answers[numQuestion][3] + "</p>";
+        HTML = "<p class='timer-p'><span class='timer'>30</span></p><p>" + questions[numQuestion] + "</p><p class='answer rounded'>A. " + answers[numQuestion][0] + "</p><p class='answer rounded'>B. " + answers[numQuestion][1] + "</p><p class='answer rounded'>C. " + answers[numQuestion][2] + "</p><p class='answer rounded'>D. " + answers[numQuestion][3] + "</p>";
         $('.mainArea').html(HTML);
     }
 
