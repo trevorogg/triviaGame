@@ -1,0 +1,10 @@
+body{
+    background-color: green;
+}
+
+.mainArea{
+    background-color: red;
+    height: 350px;
+    padding-top: 20px;
+}
+
