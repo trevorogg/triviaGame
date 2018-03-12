@@ -10,17 +10,19 @@ body{
 
 .mainArea{
     background-color: #337bfb;
-    height: 375px;
+    height: 400px;
     padding-top: 20px;
     color: white;
+    font-size: 22px;
 }
 
 .answer{
     text-align: left;
     line-height: 45px;
-    background-color: lightgray;
+    background-color: #ffc04b;
     color: black;
     padding-left: 25px;
+    font-size: 18px;
 }
 
 .answer:hover{
